@@ -1,10 +1,10 @@
 {
   "CONTRACT_ADDRESS": "0x34e9fe9a6ccc034b7eccfe3da03788a4471bb527",
-  "SCAN_LINK": "https://bscscan.com/token/0x34e9fe9a6ccc034b7eccfe3da03788a4471bb527",
+  "SCAN_LINK": "https://explorer.binance.org/smart-testnet",
   "NETWORK": {
-    "NAME": "Binance Smart Chain",
+    "NAME": "BSC Testnet",
     "SYMBOL": "bnb",
-    "ID": 56
+    "ID": 97
   },
   "NFT_NAME": "The Crackin Krakens",
   "SYMBOL": "KRAKEN",
@@ -13,6 +13,6 @@
   "DISPLAY_COST": ".05",
   "GAS_LIMIT": 322543,
   "MARKETPLACE": "PCS",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/the-stripes-nft",
+  "MARKETPLACE_LINK": "https://pancakeswap.finance/nfts",
   "SHOW_BACKGROUND": true
 }
