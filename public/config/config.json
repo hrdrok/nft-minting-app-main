@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "0x34e9fe9a6ccc034b7eccfe3da03788a4471bb527",
-  "SCAN_LINK": "https://explorer.binance.org/smart-testnet",
+  "CONTRACT_ADDRESS": "0x8bdadd7ae7f99875e011c3ba9d9410cd2aa7b551",
+  "SCAN_LINK": "https://testnet.bscscan.com/token/0x8bdadd7ae7f99875e011c3ba9d9410cd2aa7b551",
   "NETWORK": {
     "NAME": "BSC Testnet",
     "SYMBOL": "bnb",
@@ -8,7 +8,7 @@
   },
   "NFT_NAME": "The Crackin Krakens",
   "SYMBOL": "KRAKEN",
-  "MAX_SUPPLY": 10000,
+  "MAX_SUPPLY": 10,
   "WEI_COST": 50000000000000000,
   "DISPLAY_COST": ".05",
   "GAS_LIMIT": 322543,
