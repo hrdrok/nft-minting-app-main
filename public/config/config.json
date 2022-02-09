@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0x8bdadd7ae7f99875e011c3ba9d9410cd2aa7b551",
+  "CONTRACT_ADDRESS": "0x50612F752A6d993178914D97B932821Be598EA86",
   "SCAN_LINK": "https://testnet.bscscan.com/token/0x8bdadd7ae7f99875e011c3ba9d9410cd2aa7b551",
   "NETWORK": {
     "NAME": "BSC Testnet",
     "SYMBOL": "bnb",
     "ID": 97
   },
-  "NFT_NAME": "The Crackin Krakens",
-  "SYMBOL": "KRAKEN",
-  "MAX_SUPPLY": 10,
+  "NFT_NAME": "Crackin Krakens",
+  "SYMBOL": "CK",
+  "MAX_SUPPLY": 1000,
   "WEI_COST": 50000000000000000,
   "DISPLAY_COST": ".05",
   "GAS_LIMIT": 322543,
-  "MARKETPLACE": "PCS",
+  "MARKETPLACE": "Pancake",
   "MARKETPLACE_LINK": "https://pancakeswap.finance/nfts",
   "SHOW_BACKGROUND": true
 }
