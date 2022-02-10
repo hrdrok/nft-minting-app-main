@@ -191,18 +191,13 @@ function App() {
     getData();
   }, [blockchain.account]);
 
-  return (
-    <s.Screen>
+return (
+  <s.Screen>
       <s.Container
         flex={1}
         ai={"center"}
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
-      >
-        <a href={CONFIG.MARKETPLACE_LINK}>
-          <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
-        </a>
-        <s.SpacerSmall />
+        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}>
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
@@ -242,28 +237,7 @@ function App() {
             <span
               style={{
                 textAlign: "center",
-              }}
-            >
-              <StyledButton
-                onClick={(e) => {
-                  window.open("/config/roadmap.pdf", "_blank");
-                }}
-                style={{
-                  margin: "5px",
-                }}
-              >
-                Roadmap
-              </StyledButton>
-              <StyledButton
-                style={{
-                  margin: "5px",
-                }}
-                onClick={(e) => {
-                  window.open(CONFIG.MARKETPLACE_LINK, "_blank");
-                }}
-              >
-                {CONFIG.MARKETPLACE}
-              </StyledButton>
+              }}>
             </span>
             <s.SpacerSmall />
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
@@ -415,7 +389,6 @@ function App() {
             {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
             Once you make the purchase, you cannot undo this action.
           </s.TextDescription>
-          <s.SpacerSmall />
           <s.TextDescription
             style={{
               textAlign: "center",
@@ -427,9 +400,12 @@ function App() {
             gas limit.
           </s.TextDescription>
         </s.Container>
+        <s.SpacerSmall />
+        <s.SpacerSmall />
+        <s.SpacerSmall />
       </s.Container>
-    </s.Screen>
-  );
+      </s.Screen>
+    );
 }
 
 export default App;

@@ -12,7 +12,8 @@
   "WEI_COST": 50000000000000000,
   "DISPLAY_COST": ".05",
   "GAS_LIMIT": 322543,
-  "MARKETPLACE": "Pancake",
-  "MARKETPLACE_LINK": "https://pancakeswap.finance/nfts",
-  "SHOW_BACKGROUND": true
+  "MARKETPLACE": "PancakeSwap",
+  "MARKETPLACE_LINK": "https://www.pancakeswap.finance",
+  "SHOW_BACKGROUND": true,
+  "HOME_LINK": "https://www.releasethekrakens.io"
 }
