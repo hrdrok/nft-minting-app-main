@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function Navigation() {
   return (
     <div className="navigation">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
           <NavLink className="navbar-brand" to="/">
             The Crackin Krakens
@@ -18,13 +18,13 @@ function Navigation() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/mint">
-                  Mint
+                <NavLink className="nav-link" to="/roadmap">
+                  Roadmap
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/roadmap">
-                  Roadmap
+                <NavLink className="nav-link" to="/mint">
+                  Mint
                 </NavLink>
               </li>
             </ul>

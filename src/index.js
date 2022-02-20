@@ -6,6 +6,7 @@ import Navigation from "./Navigation"
 import Home from "./Home"
 import Mint from "./Mint"
 import Roadmap from "./Roadmap"
+import Footer from "./Footer"
 
 ReactDOM.render(
   <Router>
@@ -15,6 +16,7 @@ ReactDOM.render(
       <Route path="/Mint" element={<Mint />} />
       <Route path="/Roadmap" element={<Roadmap />} />
     </Routes>
+    <Footer />
   </Router>,
 
   document.getElementById("root")

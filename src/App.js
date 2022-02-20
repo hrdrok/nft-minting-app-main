@@ -196,11 +196,10 @@ return (
       <s.Container
         flex={1}
         ai={"center"}
-        style={{ padding: 24, backgroundColor: "var(--primary)" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}>
-        <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
-          <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/example.gif"} />
+        style={{ padding: 150, backgroundColor: "#ffffff" }}>
+        <ResponsiveWrapper flex={1} style={{ padding: 12 }} test>
+          <s.Container flex={2} jc={"center"} ai={"center"}>
+            <StyledImg alt={"example"} src={"https://imgur.com/HMnMOgz.png"} />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
@@ -209,8 +208,8 @@ return (
             ai={"center"}
             style={{
               backgroundColor: "var(--accent)",
-              padding: 24,
-              borderRadius: 24,
+              padding: 36,
+              borderRadius: 36,
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
@@ -286,12 +285,9 @@ return (
                     <s.SpacerSmall />
                     <StyledButton
                       onClick={(e) => {
-                        e.preventDefault();
-                        dispatch(connect());
-                        getData();
                       }}
                     >
-                      CONNECT
+                      Soon(tm)
                     </StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>
@@ -369,10 +365,10 @@ return (
             <s.SpacerMedium />
           </s.Container>
           <s.SpacerLarge />
-          <s.Container flex={1} jc={"center"} ai={"center"}>
+          <s.Container flex={2} jc={"center"} ai={"center"}>
             <StyledImg
               alt={"example"}
-              src={"/config/images/example.gif"}
+              src={"https://imgur.com/htJzlMI.png"}
               style={{ transform: "scaleX(-1)" }}
             />
           </s.Container>

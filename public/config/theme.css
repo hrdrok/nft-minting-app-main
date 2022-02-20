@@ -1,8 +1,25 @@
 :root {
-  --primary: #00434e;
+  --primary: #ffffff;
   --primary-text: #000000;
   --secondary: #00b7ff;
   --secondary-text: #000000;
-  --accent: #0044ff;
+  --accent: #3d4047;
   --accent-text: #000000;
+}
+
+footer {
+  height: 5%;
+  color: white;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-size-adjust: 0%;
+}
+
+p1 {
+  text-align: center;
+  color: white;
 }
