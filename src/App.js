@@ -196,8 +196,8 @@ return (
       <s.Container
         flex={1}
         ai={"center"}
-        style={{ padding: 150, backgroundColor: "#ffffff" }}>
-        <ResponsiveWrapper flex={2} style={{ padding: 0 }} test>
+        style={{ padding: 25, backgroundColor: "#ffffff" }}>
+        <ResponsiveWrapper flex={2} style={{ padding: 12 }} test>
           <s.Container flex={2} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"https://imgur.com/HMnMOgz.png"} />
           </s.Container>
