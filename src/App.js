@@ -197,13 +197,13 @@ return (
         flex={1}
         ai={"center"}
         style={{ padding: 150, backgroundColor: "#ffffff" }}>
-        <ResponsiveWrapper flex={1} style={{ padding: 12 }} test>
+        <ResponsiveWrapper flex={2} style={{ padding: 0 }} test>
           <s.Container flex={2} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"https://imgur.com/HMnMOgz.png"} />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
-            flex={2}
+            flex={4}
             jc={"center"}
             ai={"center"}
             style={{
@@ -287,7 +287,7 @@ return (
                       onClick={(e) => {
                       }}
                     >
-                      Soon(tm)
+                      Soon
                     </StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>

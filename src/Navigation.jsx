@@ -7,8 +7,11 @@ function Navigation() {
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
           <NavLink className="navbar-brand" to="/">
-            The Crackin Krakens
+            <img class="logo fixed-left"
+            src="lege.png"/>            
           </NavLink>
+          <title class="nav container-fluid fixed-left h4">
+            The Crackin Krakens</title>
           <div>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">

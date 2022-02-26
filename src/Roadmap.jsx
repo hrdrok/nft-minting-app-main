@@ -12,6 +12,9 @@ function Roadmap() {
           <p class="container-md pt-5">
           Coming Soon! We have big plans for the Crackin Krakens. Stay tuned for updates!
           </p>
+          <div class="container-md pt-5"></div>
+          <div class="container-md pt-5"></div>
+          <div class="container-md pt-5"></div>
         </div>
     );
 }

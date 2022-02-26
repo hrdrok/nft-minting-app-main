@@ -26,7 +26,11 @@ function Home() {
             reward the holders of the $RISE token. Royalties will be 10% of every sale. Considering the average NFT project volume on PancakeSwap, this could significantly
             increase the EverRise Krakens holdings, and the communities rewards!
           </p>
-          
+          <div class="container-md pt-5"></div>
+          <div class="container-md pt-5"></div>
+          <div class="container-md pt-5"></div>
+          <div class="container-md pt-5"></div>
+          <div class="container-md pt-5"></div>
         </div>
     );
 }

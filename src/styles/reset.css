@@ -5,13 +5,21 @@ span,
 applet,
 object,
 iframe,
-h1,
-h2,
+h1{
+  color:rgb(0, 0, 0);
+}
+h2{
+  color:white;
+}
 h3,
 h4,
 h5,
 h6,
-p,
+p {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-size-adjust: 0%;
+};
 blockquote,
 pre,
 a,
@@ -66,7 +74,6 @@ details,
 embed,
 figure,
 figcaption,
-footer,
 header,
 hgroup,
 menu,
@@ -92,16 +99,15 @@ aside,
 details,
 figcaption,
 figure,
-footer,
 header,
 hgroup,
 menu,
-nav,
+
 section {
   display: block;
 }
 body {
-  line-height: 1;
+  line-height: 1.25;
 }
 ol,
 ul {
@@ -124,14 +130,18 @@ table {
 }
 
 @font-face {
-  font-family: "coder";
-  src: local("coder"), url(font.woff) format("woff");
+  font-family: "font";
+  src: local("PressStart2P-Regular"), url(PressStart2P-Regular.ttf);
+}
+
+@font-face {
+  font-family: "font2";
+  src: local("LakkiReddy"), url(LakkiReddy-Regular.ttf);
 }
 
 body {
   margin: 0;
-  font-family: "coder", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "font2";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -166,4 +176,8 @@ div {
   -ms-user-select: none;
   user-select: none;
   -o-user-select: none;
+}
+
+Nav {
+  color:white;
 }
