@@ -3,8 +3,8 @@
   "SCAN_LINK": "https://testnet.bscscan.com/token/0xcfa207c8a462c133281a9c7d15cee45ab10841ca",
   "NETWORK": {
     "NAME": "Binance Smart Chain",
-    "SYMBOL": "bnb",
-    "ID": 97
+    "SYMBOL": "BNB",
+    "ID": 56
   },
   "NFT_NAME": "Crackin Krakens",
   "SYMBOL": "CKNFT",
