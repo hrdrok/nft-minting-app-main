@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "0xcFa207c8A462C133281A9C7d15Cee45Ab10841cA",
-  "SCAN_LINK": "https://testnet.bscscan.com/token/0xcfa207c8a462c133281a9c7d15cee45ab10841ca",
+  "CONTRACT_ADDRESS": "0x5230b083AaAe9e43dEB9bA5ebCAFaa31A643c1EF",
+  "SCAN_LINK": "https://bscscan.com/token/0x5230b083AaAe9e43dEB9bA5ebCAFaa31A643c1EF",
   "NETWORK": {
     "NAME": "Binance Smart Chain",
     "SYMBOL": "BNB",
