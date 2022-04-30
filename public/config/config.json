@@ -1,19 +1,19 @@
 {
-  "CONTRACT_ADDRESS": "",
-  "SCAN_LINK": "",
+  "CONTRACT_ADDRESS": "0xcFa207c8A462C133281A9C7d15Cee45Ab10841cA",
+  "SCAN_LINK": "https://testnet.bscscan.com/token/0xcfa207c8a462c133281a9c7d15cee45ab10841ca",
   "NETWORK": {
     "NAME": "Binance Smart Chain",
     "SYMBOL": "bnb",
     "ID": 97
   },
   "NFT_NAME": "Crackin Krakens",
-  "SYMBOL": "Kraken",
+  "SYMBOL": "CKNFT",
   "MAX_SUPPLY": 10000,
-  "WEI_COST": 50000000000000000,
-  "DISPLAY_COST": ".05",
+  "WEI_COST": 10000000000000000,
+  "DISPLAY_COST": ".01",
   "GAS_LIMIT": 322543,
   "MARKETPLACE": "PancakeSwap",
   "MARKETPLACE_LINK": "https://www.pancakeswap.finance/nft",
   "SHOW_BACKGROUND": false,
-  "HOME_LINK": "https://www.releasethekrakens.io"
+  "HOME_LINK": "releasethekrakens.io"
 }

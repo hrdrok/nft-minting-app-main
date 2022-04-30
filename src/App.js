@@ -143,7 +143,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `WOW, ${CONFIG.NFT_NAME} is yours! go visit Lootex.io to view it.`
+          `WOW, ${CONFIG.NFT_NAME} is yours!`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
@@ -285,9 +285,12 @@ return (
                     <s.SpacerSmall />
                     <StyledButton
                       onClick={(e) => {
+                        e.preventDefault();
+                        dispatch(connect());
+                        getData();
                       }}
                     >
-                      Soon
+                      Connect
                     </StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>
