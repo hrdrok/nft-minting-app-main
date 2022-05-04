@@ -9,18 +9,15 @@ const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
 export const StyledButton = styled.button`
-  padding: 10px;
-  border-radius: 50px;
+  padding: 20px;
+  border-radius: 15px;
   border: none;
-  background-color: var(--secondary);
-  padding: 10px;
+  background-color: #86C232;
+  padding: 15px;
   font-weight: bold;
   color: var(--secondary-text);
-  width: 100px;
+  width: 150px;
   cursor: pointer;
-  box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
-  -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
-  -moz-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
   :active {
     box-shadow: none;
     -webkit-box-shadow: none;
@@ -88,11 +85,11 @@ export const StyledImg = styled.img`
 `;
 
 export const StyledLink = styled.a`
-  color: var(--secondary);
+  color: var(--accent);
   text-decoration: none;
 `;
 
-function App() {
+function Mint() {
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
@@ -196,7 +193,7 @@ return (
       <s.Container
         flex={1}
         ai={"center"}
-        style={{ padding: 25, backgroundColor: "#ffffff" }}>
+        style={{ padding: 25, backgroundColor: '#222629' }}>
         <ResponsiveWrapper flex={2} style={{ padding: 12 }} test>
           <s.Container flex={2} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"https://imgur.com/HMnMOgz.png"} />
@@ -207,7 +204,7 @@ return (
             jc={"center"}
             ai={"center"}
             style={{
-              backgroundColor: "var(--accent)",
+              backgroundColor: "#343a40",
               padding: 36,
               borderRadius: 36,
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
@@ -259,7 +256,7 @@ return (
             ) : (
               <>
                 <s.TextTitle
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                  style={{ textAlign: "center", color: "#61892F" }}
                 >
                   1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
                   {CONFIG.NETWORK.SYMBOL}.
@@ -381,7 +378,7 @@ return (
           <s.TextDescription
             style={{
               textAlign: "center",
-              color: "var(--primary-text)",
+              color: "var(--accent)",
             }}
           >
             Please make sure you are connected to the right network (
@@ -391,7 +388,7 @@ return (
           <s.TextDescription
             style={{
               textAlign: "center",
-              color: "var(--primary-text)",
+              color: "var(--accent)",
             }}
           >
             We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
@@ -407,4 +404,4 @@ return (
     );
 }
 
-export default App;
+export default Mint;

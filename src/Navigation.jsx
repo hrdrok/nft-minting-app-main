@@ -10,7 +10,7 @@ function Navigation() {
             <img class="logo fixed-left"
             src="lege.png"/>            
           </NavLink>
-          <title class="nav container-fluid fixed-left h4">
+          <title class="nav container-fluid fixed-left h4" style= {{color:"#61892F"}}>
             The Crackin Krakens</title>
           <div>
             <ul className="navbar-nav ml-auto">
@@ -28,6 +28,11 @@ function Navigation() {
               <li className="nav-item">
                 <NavLink className="nav-link" to="/mint">
                   Mint
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/home">
+                  Staking
                 </NavLink>
               </li>
             </ul>

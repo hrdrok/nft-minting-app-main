@@ -2,16 +2,22 @@
   --primary: #ffffff;
   --primary-text: #ffffff;
   --secondary: #00b7ff;
-  --secondary-text: #000000;
-  --accent: #3d4047;
+  --secondary-text: #6B6E70;
+  --accent: #474B4F;
   --accent-text: #ffffff;
-}
+  --background: #222629;
+  }
+  
 
 p1 {
   text-align: center;
-  color: white;
+  color: grey;
 }
 
 Footer {
   text-align: center;
+}
+
+body {
+  background-color: #222629;
 }

@@ -6,7 +6,7 @@ applet,
 object,
 iframe,
 h1{
-  color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
 }
 h2{
   color:white;
@@ -17,7 +17,7 @@ h5,
 h6,
 p {
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: #474B4F;
   text-size-adjust: 0%;
 };
 blockquote,
@@ -99,7 +99,9 @@ aside,
 details,
 figcaption,
 figure,
-header,
+header {
+  background-color: #222629;
+}
 hgroup,
 menu,
 
@@ -129,23 +131,6 @@ table {
   border-spacing: 0;
 }
 
-@font-face {
-  font-family: "font";
-  src: local("PressStart2P-Regular"), url(PressStart2P-Regular.ttf);
-}
-
-@font-face {
-  font-family: "font2";
-  src: local("LakkiReddy"), url(LakkiReddy-Regular.ttf);
-}
-
-body {
-  margin: 0;
-  font-family: "font2";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -153,21 +138,20 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: Verdana, sans-serif,
     monospace;
-}
-
-body::-webkit-scrollbar {
-  display: none;
 }
 
 body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+  background-color: #222629;
+  margin: 0;
+  font-family: 'Kanit', sans-serif;
 }
 
 html {
-  background-color: "#4C4C4C";
+  background-color: #222629;
 }
 
 div {
@@ -179,5 +163,10 @@ div {
 }
 
 Nav {
+  color:white;
+}
+
+
+title {
   color:white;
 }

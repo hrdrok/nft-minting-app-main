@@ -7,14 +7,16 @@ import Home from "./Home"
 import Mint from "./Mint"
 import Roadmap from "./Roadmap"
 import Footer from "./Footer"
+import Staking from "./Staking"
 
 ReactDOM.render(
   <Router>
     <Navigation />
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/Mint" element={<Mint />} />
       <Route path="/Roadmap" element={<Roadmap />} />
+      <Route path="/Mint" element={<Mint />} />
+      <Route path="/Staking" element={<Staking />} />
     </Routes>
     <Footer />
   </Router>,
