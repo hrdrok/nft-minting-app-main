@@ -9,7 +9,7 @@ function Home() {
               alt="BlackBeard" />
             </div>
           <h1 class="display-3 font-weight-bold pt-5 text-center">Release the Krakens!</h1>
-          <p>Minting Soon!</p>
+          <p>Minting Live!</p>
           <p class="container-md pt-5" style={{color:"#ffffff"}}>
             Hafgufa, Krake, Sciu-crak, and Kraken, it goes by many names. It has taken many forms, but all accounts of the legendary Kraken come to the same conclusion.
             It's waiting around to feast on the weak, traveling its' waters. In crypto, whales are the top of the foodchain, and here we give everyone a chance to be one themselves.
