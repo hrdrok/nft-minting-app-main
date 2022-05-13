@@ -12,8 +12,8 @@
   "WEI_COST": 10000000000000000,
   "DISPLAY_COST": ".01",
   "GAS_LIMIT": 322543,
-  "MARKETPLACE": "PancakeSwap",
-  "MARKETPLACE_LINK": "https://www.pancakeswap.finance/nft",
+  "MARKETPLACE": "tofunft",
+  "MARKETPLACE_LINK": "https://tofunft.com/collection/crackin-krakens/items",
   "SHOW_BACKGROUND": false,
   "HOME_LINK": "releasethekrakens.io"
 }

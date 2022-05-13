@@ -5,18 +5,16 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navigation from "./Navigation"
 import Home from "./Home"
 import Mint from "./Mint"
-import Roadmap from "./Roadmap"
 import Footer from "./Footer"
-import Staking from "./Staking"
+import Gallery from "./Gallery"
 
 ReactDOM.render(
   <Router>
     <Navigation />
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/Roadmap" element={<Roadmap />} />
       <Route path="/Mint" element={<Mint />} />
-      <Route path="/Staking" element={<Staking />} />
+      <Route path="/Gallery" element={<Gallery />} />
     </Routes>
     <Footer />
   </Router>,

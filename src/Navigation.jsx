@@ -21,17 +21,10 @@ function Navigation() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/roadmap">
-                  Roadmap
-                </NavLink>
-              </li>
-              <li className="nav-item">
                 <NavLink className="nav-link" to="/mint">
                   Mint
                 </NavLink>
-              </li>
-              <li className="nav-item">
-              </li>
+                </li>
             </ul>
           </div>
         </div>
